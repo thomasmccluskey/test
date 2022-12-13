@@ -55,7 +55,7 @@ header {
     position: fixed;
     background-color: white;
     top: 0;
-    padding-top: 3vw;
+    padding-top: 2vw;
     z-index: 1000;
 }
 
@@ -207,8 +207,8 @@ header {
         width: 50%;
         height: 40vh;
         background-color: white;
-        padding-top: 200px;
-        font-size: 30px;
+        padding-top: 150px;
+        font-size: 20px;
     }
 
     .auto-type {
@@ -264,6 +264,7 @@ header {
     .desk-navbar {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         position: fixed;
         width: 95%;
         background-color: white;
@@ -272,7 +273,7 @@ header {
     .nav-links {
         display: flex;
         font-family: 'Roboto', sans-serif;
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .desk-navbar>.nav-links>a {
@@ -286,7 +287,7 @@ header {
         display: flex;
         color: #1F1F1F;
         font-family: 'Roboto', sans-serif;
-        font-size: 3vw;
+        font-size: 1.5vw;
         text-decoration: none;
         font-weight: 700;
     }
@@ -332,8 +333,7 @@ header {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin-top: 320px;
-
+        margin-top: 200px;
     }
 
     .container3 {
@@ -341,19 +341,28 @@ header {
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        margin-top: 100px;
+        margin-top: 50px;
         padding-bottom: 25vw;
-        margin-top: 100px;
     }
 
     .mobile-flex-images {
-        width: 30vw;
-        height: 16.5vw;
+        width: 25vw;
+        height: 15vw;
         padding-top: 20px;
     }
 
     .mobile-title {
         display: none;
+    }
+
+    .arrow {
+        display: flex;
+        justify-content: center;
+    }
+
+    .arrow-sizing {
+        width: 165px;
+        height: 155px;
     }
 
 
