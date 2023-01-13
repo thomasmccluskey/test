@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type", {
-    strings: ["Motion Designer", "Digital Fabricator", "3D Artist", "Video Artist"],
+    strings: ["Motion Designer", "3D Artist", "Video Editor", "Designer"],
     typeSpeed: 75,
     backSpeed: 100,
     loop: true
@@ -8,6 +8,7 @@ var typed = new Typed(".auto-type", {
 var loader = document.getElementById("preloader");
 
 window.addEventListener("load", function () {
+    console.log("test");
     loader.style.display = "none";
 })
 

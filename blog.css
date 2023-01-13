@@ -109,6 +109,19 @@ header {
         z-index: 1000;
     }
 
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 95%;
+        height: 45px;
+        position: fixed;
+        background-color: white;
+        bottom: 0;
+        padding-bottom: 2vw;
+        z-index: 1000;
+    }
+
     .site-wrapper {
         min-height: 100vh;
         padding: 3vw;
@@ -144,9 +157,9 @@ header {
         display: flex;
         color: #1F1F1F;
         font-family: 'Roboto', sans-serif;
-        font-size: 1.5vw;
+        font-size: 2vw;
         text-decoration: none;
-        font-weight: 700;
+        font-weight: 400;
     }
 
     .desk-title-text {
@@ -218,4 +231,5 @@ header {
     .blog-text {
         font-family: 'Roboto', sans-serif;
     }
+
 }

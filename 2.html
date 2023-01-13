@@ -2,63 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0;">
-    <title>Hypercinema Video Festival</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Journey</title>
 </head>
 
-<header>
-
-</header>
-
 <body>
-    <div class="fadeonload">
-        <div class="videoWrapper">
-            <iframe src="https://player.vimeo.com/video/696355273" frameborder="0" allow="autoplay; fullscreen"
-                allowfullscreen>
-            </iframe>
-        </div>
-    </div>
-
-
-
     <div class="site-wrapper">
         <header>
-            <div class="navbar">
+            <div class="desk-navbar">
+                <a href="index.html" class=desk-title-text>
+                    <h1 class="desk-title">Thomas McCluskey</h1>
+                </a>
+
                 <div class="nav-links">
                     <a href="index.html">Work</a>
                     <a href="about.html">About</a>
-                    <a href="resume.html">Resume</a>
+                    <a href="https://docs.google.com/document/d/1rmJoREttEuosgTcmmV_ZjM8u1amcrBN-7C_OmyU4-R4/edit?usp=sharing"
+                        target="_blank">Resume</a>
                     <a href="blog.html">Blog</a>
                 </div>
             </div>
-
-            <a href="index.html" class=mobile-title-text>
-                <h1 class="mobile-title">Thomas McCluskey</h1>
-            </a>
-
-            <div class="mobile-socialbar">
-                <a href="https://www.instagram.com/thomaswm33">
-                    <img src="assets/logos/instagram.png" class="mobile-icons"> </a>
-                <a href="https://www.linkedin.com/in/thomas-mccluskey3/">
-                    <img src="assets/logos/linkedin.png" class="mobile-icons"> </a>
-            </div>
         </header>
-    </div>
 
-    <footer>
-        <div class="mobile-navbar">
-            <div class="nav-links">
-                <a href="index.html">Work</a>
-                <a href="about.html">About</a>
-                <a href="resume.html">Resume</a>
-                <a href="blog.html">Blog</a>
+        <div class="fadeonload">
+            <div class="videoWrapper">
+                <iframe width="100%" height="500vh" src="https://player.vimeo.com/video/696355273" frameborder="0"
+                    allowfullscreen></iframe>
+                </iframe>
             </div>
         </div>
-    </footer>
-
+        <footer>
+            <div class="desk-socialbar">
+                <a href="https://www.instagram.com/thomaswm33""></a>
+                <img src=" assets/logos/instagram.png" class="mobile-icons">
+                    <a href="https://www.linkedin.com/in/thomas-mccluskey3/">
+                        <img src="assets/logos/linkedin.png" class="mobile-icons"> </a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
