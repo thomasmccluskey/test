@@ -3,22 +3,314 @@ p {
     font-weight: 400;
 }
 
-.filler-text {
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.all {
+#preloader {
+    background: #FFFFFF url(https://media.tenor.com/tEBoZu1ISJ8AAAAC/spi
+nning-loading.gif) no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.fadeonload {
+    animation: transitionIn 3s;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    transition: 0.3s ease transform;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 95%;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    padding-top: 2vw;
+    z-index: 1000;
+}
+
+.project-title {
+    margin-left: 6px;
+    width: 15%;
+}
+
+.proj-title {
+    color: #0F9D58;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.gifs-title {
+    color: #0F9D58;
+    margin-left: 6px;
+    width: 15%;
+}
+
+.gif-title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.others-title {
+    color: #0F9D58;
+    margin-left: 6px;
+    width: 15%;
+}
+
+.other-title {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.videoWrapper {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.motion {
+    display: none;
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    padding-top: 150px;
+    font-size: 15px;
+}
+
+.auto-type {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #0F9D58;
+}
+
+.motioncontainer {
+    display: none;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -109px;
+    height: 60vh;
+}
+
+.motionwalk {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 100px 10px 30px 10px;
+}
+
+.mobile-about-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mobile-about-item {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    padding: 100px 10px 30px 10px;
+}
+
+.mobile-about-images {
+    width: 10rem;
+}
+
+.title-gif {
+    display: none;
+    width: 20rem;
+
+}
+
+.bold-text {
+    color: #0F9D58;
+    font-weight: 700;
+}
+
+.about-desc-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.mobile-about-description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+
+.site-wrapper {
+    min-height: 100vh;
+    padding: 3vw;
+}
+
+.desk-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 90%;
+    background-color: white;
+}
+
+.nav-links {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.desk-navbar>.nav-links>a {
+    display: inline-block;
+    padding: 13px 2px 13px 18px;
+    text-decoration: none;
+    color: #1F1F1F;
+}
+
+.desk-title {
+    display: flex;
+    color: #0F9D58;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.desk-title-text {
+    text-decoration: none;
+}
+
+.mobile-socialbar {
     display: none;
 }
 
+.mobile-navbar {
+    display: none;
+}
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 95%;
+    height: 45px;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    padding-bottom: 2vw;
+    z-index: 1000;
+}
 
+.mobile-icons {
+    width: 40px;
+    padding: 5px;
+}
 
+.project-container {
+    margin-top: 125px;
+}
 
+.container1 {
+    display: none;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 5vw;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 5vw;
+}
+
+.container6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mobile-flex-images {
+    width: 85vw;
+    height: 50vw;
+    padding-top: 20px;
+}
+
+.mobile-title {
+    display: none;
+}
+
+.arrow {
+    display: none;
+}
 
 @media screen and (min-width: 650px) {
+
     * {
         margin: 0;
         padding: 0;
@@ -77,15 +369,6 @@ p {
         z-index: 1000;
     }
 
-    .all {
-        display: block;
-    }
-
-    .filler-text {
-        display: none;
-    }
-
-
     .project-title {
         margin-left: 45px;
         width: 15%;
@@ -127,7 +410,7 @@ p {
 
     .motion {
         display: block;
-        width: 50%;
+        width: 100%;
         height: 40vh;
         background-color: white;
         padding-top: 150px;
@@ -144,7 +427,7 @@ p {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        margin-top: -0px;
+        margin-top: 0px;
         height: 60vh;
     }
 
@@ -321,8 +604,8 @@ p {
     }
 
     .mobile-flex-images {
-        width: 25vw;
-        height: 15vw;
+        width: 27vw;
+        height: 16vw;
         padding-top: 20px;
     }
 
@@ -336,8 +619,8 @@ p {
     }
 
     .arrow-sizing {
-        width: 165px;
-        height: 155px;
+        width: 200px;
+        height: 190px;
     }
 
 
